@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 
-import Body from "./appify-me/Body"
+import Header from "./Header"
 
 const App = () => (
-	<div>
-		<Body />
-	</div>
+	<Header title="My Amazing App" />
 );
 
 export default App;
