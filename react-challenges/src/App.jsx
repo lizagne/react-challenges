@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import Stuff from "./Stuff"
+import Body from "./appify-me/Body"
 
 const App = () => (
-
-   <Stuff />
-
+	<div>
+		<Body />
+	</div>
 );
 
 export default App;
