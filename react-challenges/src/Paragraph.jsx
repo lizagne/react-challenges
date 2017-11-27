@@ -12,7 +12,7 @@ import React from "react";
 
 //Update your <Paragraph> component so that it uses children instead of the message prop
 
-const Paragraph = ({ children } ) => (
+const Paragraph = ({ children }) => (
     <div>
         <p>
             { children }

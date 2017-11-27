@@ -5,36 +5,20 @@
 
 import React from "react";
 
-const squareStyle = {
-	backgroundColor: 'red',
-	width: 200,
-	height: 200,
-}
-
-const Square = props => (
-	<div style={squareStyle} />
-);
-
-
-const Square = ({ backgroundColor, width, height  }) => (
-	<div style=
+const Square = ({ color }) => (
+	<div style={{
+		height: '200px',
+		width: '200px',
+		border: '5px solid green',
+		background: color,
+	}}> 
+	</div>
 
 );
+
+Square.defaultProps = {
+    backgroundColor: 'blue',
+};
+
 
 export default Square;
-
-
-
-//Destructuring props: 
-import React from "react";
-
-const Figure = ({ caption, src }) => (
-    <figure className="panel panel-default">
-        <div className="panel-body">
-            <img className="img-thumbnail" alt={ caption } src={ src } />
-        </div>
-        <figcaption className="panel-footer">{ caption }</figcaption>
-    </figure>
-);
-
-export default Figure;
