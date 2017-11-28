@@ -1,12 +1,11 @@
 import React from 'react';
 
-// import Clicked from "./02/Clicked"
-import Toggle from "./02/Toggle"
+import Counter from "./02/Counter"
 
 
 const App = () => (
 
-	<Toggle initial="Hello" alternate="World" />
+	<Counter max="100" />
 );
 
 export default App;
