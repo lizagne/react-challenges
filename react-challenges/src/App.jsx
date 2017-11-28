@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Counter from "./02/Counter"
+import StepCounter from "./02/StepCounter"
 
 
 const App = () => (
 
-	<Counter max="100" />
+	<StepCounter max={ 100 } step= { 5 }  />
 );
 
 export default App;
