@@ -17,14 +17,17 @@ const Stuff = props => (
 			 In hac habitasse platea dictumst. Aliquam erat volutpat. Ut tincidunt fringilla felis quis porttitor. Ut vel rutrum nisi. Cras rhoncus augue odio, a porta tellus porttitor ac. Sed in augue eget justo congue euismod. Pellentesque magna libero, porta sit amet ultricies rhoncus, convallis eget sapien. Nullam metus sem, lobortis quis turpis ac, aliquam commodo quam. Morbi ullamcorper faucibus lectus in luctus. Sed nec ligula sit amet sapien volutpat gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet sed metus et semper. Nulla rhoncus orci sit amet risus facilisis, id eleifend mi fermentum. 
 		</Paragraph>
 
-		<Square />
+
+
+		{ props.square ? <Square /> : null } 
+
 
 		<People names={ names }/>
 	</div>
 );
 
 Square.defaultProps = {
-    display: false,
+    display: true,
 };
 
 export default Stuff;

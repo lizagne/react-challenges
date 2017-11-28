@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import Stuff from "./Stuff"
+import Clicked from "./02/Clicked"
 
 
 const App = () => (
-	<div>
-		<Stuff />
-	</div>
+
+	<Clicked />
 );
 
 export default App;
