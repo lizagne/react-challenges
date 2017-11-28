@@ -1,11 +1,11 @@
 import React from 'react';
 
-import StepCounter from "./02/StepCounter"
+import CatchMe from "./02/CatchMe"
 
 
 const App = () => (
 
-	<StepCounter max={ 100 } step= { 5 }  />
+	<CatchMe jump={ 100 } /> //to pass in a number put it around jsx moustaches
 );
 
 export default App;
