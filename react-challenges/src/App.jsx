@@ -1,11 +1,12 @@
 import React from 'react';
 
-import Clicked from "./02/Clicked"
+// import Clicked from "./02/Clicked"
+import Square from "./Square"
 
 
 const App = () => (
-
-	<Clicked />
+	
+	<Square color="hotpink" />
 );
 
 export default App;
