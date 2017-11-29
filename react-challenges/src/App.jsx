@@ -1,11 +1,11 @@
 import React from 'react';
 
-import List from "./03/List"
+import Adder from "./03/Adder"
 
 
 const App = () => (
 
-	<List label="Add an item to the list" />  //to pass in a number put it around jsx moustaches
+	<Adder label="Add an item to the list" />  //to pass in a number put it around jsx moustaches
 );
 
 export default App;
