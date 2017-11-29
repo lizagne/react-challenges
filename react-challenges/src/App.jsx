@@ -1,11 +1,11 @@
 import React from 'react';
 
-import LameGame from "./02/LameGame"
+import Length from "./03/Length"
 
 
 const App = () => (
 
-	<LameGame aim={ x } /> //to pass in a number put it around jsx moustaches
+	<Length />  //to pass in a number put it around jsx moustaches
 );
 
 export default App;
