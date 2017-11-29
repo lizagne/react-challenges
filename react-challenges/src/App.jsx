@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Length from "./03/Length"
+import List from "./03/List"
 
 
 const App = () => (
 
-	<Length label="Password"/>  //to pass in a number put it around jsx moustaches
+	<List label="Add an item to the list" />  //to pass in a number put it around jsx moustaches
 );
 
 export default App;
