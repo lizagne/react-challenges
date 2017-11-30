@@ -1,11 +1,14 @@
 import React from 'react';
 
-import Buttons from "./04/Buttons"
+import Squares from "./04/Squares"
 
 
 const App = () => (
 
-	<Buttons  />  //to pass in a number put it around jsx moustaches
+	<div>
+		<Squares />  
+		
+	</div>	
 );
 
 export default App;
