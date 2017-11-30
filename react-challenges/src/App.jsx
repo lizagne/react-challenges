@@ -1,11 +1,14 @@
 import React from 'react';
 
-import Adder from "./03/Adder"
+import Passwords from "./04/Passwords"
 
 
 const App = () => (
 
-	<Adder label="Add an item to the list" />  //to pass in a number put it around jsx moustaches
+	<div>
+		<Passwords label="Password" />
+		
+	</div>	
 );
 
 export default App;
