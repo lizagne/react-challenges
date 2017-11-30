@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Button from "./04/Button-single"
+import Buttons from "./04/Buttons"
 
 
 const App = () => (
 
-	<Button label="Selected" />  //to pass in a number put it around jsx moustaches
+	<Buttons  />  //to pass in a number put it around jsx moustaches
 );
 
 export default App;
